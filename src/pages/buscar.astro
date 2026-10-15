@@ -1,0 +1,81 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { site, categories } from '../data/site';
+import { getPublishedArticles } from '../lib/articles';
+
+// Busca simples: todas as guias publicadas ficam na página e um script pequeno filtra pelo texto digitado.
+// Sem JavaScript, a página continua útil como lista completa de guias.
+const articles = (await getPublishedArticles()).sort((a, b) => b.data.datePublished.getTime() - a.data.datePublished.getTime());
+const normalize = (s: string) =>
+  s
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '');
+---
+
+<BaseLayout title={`Buscar | ${site.name}`} description="Busca entre todas las guías de Hogar Práctico." noindex>
+  <section class="container-page py-10">
+    <h1 class="text-4xl font-bold">Buscar</h1>
+    <form action="/buscar/" method="get" role="search" class="mt-6 max-w-2xl">
+      <label for="q" class="sr-only">¿Qué quieres buscar?</label>
+      <input
+        id="q"
+        name="q"
+        type="search"
+        autocomplete="off"
+        placeholder="Ej.: factura de la luz"
+        class="w-full rounded-lg border-2 border-line bg-paper px-4 py-3 text-lg focus:border-brand-600 focus:outline-none"
+      />
+    </form>
+    <p id="resultado" class="mt-4 text-sm text-muted" aria-live="polite">{articles.length} guías publicadas</p>
+    <ul id="lista" class="mt-4 max-w-2xl divide-y divide-line">
+      {
+        articles.map((a) => (
+          <li
+            data-texto={normalize(
+              [a.data.title, a.data.h1, a.data.description, a.data.primaryKeyword, ...a.data.secondaryKeywords, categories[a.data.category].name].join(' '),
+            )}
+          >
+            <a href={`/${a.data.category}/${a.id}/`} class="block py-4 no-underline">
+              <span class="block text-sm text-muted">{categories[a.data.category].name}</span>
+              <span class="block font-serif text-xl font-bold text-brand-900">{a.data.h1}</span>
+              <span class="mt-1 block text-base text-ink">{a.data.description}</span>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+    <p id="vacio" class="mt-6 hidden max-w-2xl">
+      No hemos encontrado guías con esas palabras. Prueba con otra búsqueda o vuelve a la <a href="/">página de inicio</a>.
+    </p>
+  </section>
+</BaseLayout>
+
+<script is:inline>
+  (() => {
+    const input = document.getElementById('q');
+    const items = [...document.querySelectorAll('#lista li')];
+    const resultado = document.getElementById('resultado');
+    const vacio = document.getElementById('vacio');
+    const total = items.length;
+    const norm = (s) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+    const filtrar = () => {
+      const palabras = norm(input.value.trim()).split(/\s+/).filter(Boolean);
+      let visibles = 0;
+      for (const li of items) {
+        const ok = palabras.every((p) => li.dataset.texto.includes(p));
+        li.hidden = !ok;
+        if (ok) visibles++;
+      }
+      resultado.textContent = palabras.length
+        ? `${visibles} ${visibles === 1 ? 'guía encontrada' : 'guías encontradas'}`
+        : `${total} guías publicadas`;
+      vacio.classList.toggle('hidden', visibles > 0);
+    };
+    input.value = new URLSearchParams(location.search).get('q') || '';
+    input.addEventListener('input', filtrar);
+    input.form.addEventListener('submit', (e) => e.preventDefault());
+    filtrar();
+    if (!input.value) input.focus();
+  })();
+</script>

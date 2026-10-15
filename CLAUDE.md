@@ -38,6 +38,8 @@
 - **Astro 7**, site estático, `trailingSlash: 'always'`. **Tailwind CSS v4** (`src/styles/global.css`, classe `.article-body`).
 - **Deploy previsto: Hostinger** (implantação de aplicativo web ligada ao GitHub, branch `claude/dazzling-maxwell-u7wjg5`; build `npm run build`, saída `dist`, Node ≥ 22.12), igual ao TeoMundo. Redirecionamentos, 404, HTTPS e cache em `public/.htaccess` (sem domínio fixo). `robots.txt` é gerado por `src/pages/robots.txt.ts` a partir de `domain.mjs`.
 - **Zero JavaScript por padrão.** Só há JS quando AdSense, `analytics.ga4Id`, `tagManager.id` ou `stickyBar.active` estão ligados (modo de consentimento + botão "Configuración de cookies").
+  Exceção: a página `/buscar/` tem um script pequeno que filtra a lista de guias (fica `noindex`).
+- **Cabeçalho (pedido do dono):** nome do site grande à esquerda com a frase `site.tagline` embaixo; à direita, lupa (→ `/buscar/`) e, no celular, menu de tracinhos (`<details>`, sem JS). No desktop o menu aparece em linha.
 - Sem comentários (o TeoMundo também os desligou).
 
 ### 5.1 Estrutura

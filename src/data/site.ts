@@ -8,6 +8,8 @@ export const site = {
   url: SITE_URL,
   description:
     'Guías prácticas para el día a día en casa: limpieza, orden, cocina, ahorro y pequeños arreglos, explicados paso a paso y con fuentes fiables.',
+  /** Frase curta que aparece embaixo do nome no cabeçalho. */
+  tagline: 'Guías prácticas para tu casa',
   locale: 'es_ES',
   lang: 'es-ES',
 };
