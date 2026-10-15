@@ -1,0 +1,44 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import { site, author, social } from '../data/site';
+---
+
+<PageLayout
+  title={`Equipo editorial | ${site.name}`}
+  description={`Quién escribe y revisa las guías de ${site.name}, cómo elegimos las fuentes y cómo puedes avisarnos de un error.`}
+  h1={author.name}
+  updated={false}
+  pageType="AboutPage"
+>
+  <img src={author.image} width="120" height="120" alt={`Logotipo del ${author.name}`} class="!my-6" />
+
+  <p>{author.bio}</p>
+
+  <h2>Qué hacemos</h2>
+  <ul>
+    <li>Elegimos dudas reales del día a día en casa: cómo limpiar algo sin estropearlo, cómo ordenar, ahorrar o hacer un pequeño arreglo.</li>
+    <li>Buscamos la respuesta en fuentes primarias y enlazamos cada una al final del artículo.</li>
+    <li>Escribimos guías claras, en español de España, con pasos concretos que puedes seguir hoy.</li>
+    <li>Revisamos los artículos cuando cambian los datos o cuando un lector nos avisa de un error.</li>
+  </ul>
+
+  <h2>Lo que no hacemos</h2>
+  <ul>
+    <li>No sustituimos a un profesional: para instalaciones de gas, electricidad o reformas, acude a un técnico autorizado.</li>
+    <li>No vendemos productos ni publicamos reseñas pagadas.</li>
+    <li>No inventamos cifras: si un dato no se puede comprobar, no lo publicamos.</li>
+  </ul>
+
+  <h2>Cómo elegimos las fuentes</h2>
+  <p>
+    Priorizamos organismos oficiales, asociaciones de consumidores, las instrucciones de los fabricantes y estudios publicados.
+    Puedes leer el proceso completo en nuestra <a href="/politica-editorial/">política editorial</a>.
+  </p>
+
+  <h2>¿Has visto un error?</h2>
+  <p>
+    Escríbenos desde la <a href="/contacto/">página de contacto</a> y lo revisamos.
+    {social.instagram && (<> También estamos en <a href={social.instagram} rel="noopener" target="_blank">Instagram</a>.</>)}
+    {social.facebook && (<> Y en <a href={social.facebook} rel="noopener" target="_blank">Facebook</a>.</>)}
+  </p>
+</PageLayout>
