@@ -32,7 +32,16 @@ export type Category = {
 //     metaDescription: '...',
 //     description: '...',
 //   },
-export const categories: Record<string, Category> = {};
+export const categories: Record<string, Category> = {
+  ahorro: {
+    name: 'Ahorro en casa',
+    title: 'Ahorro en casa: luz, agua y gas | Hogar Práctico',
+    metaDescription:
+      'Guías para entender tus facturas de luz, agua y gas, detectar cobros que no cuadran y gastar menos en casa sin complicarte.',
+    description:
+      'Facturas de luz, agua y gas explicadas sin jerga: qué mirar, por qué suben y qué puedes hacer para pagar solo lo que consumes.',
+  },
+};
 
 // Assinatura dos artigos. É a equipe (sem nome pessoal, por decisão do dono). Não inventar pessoas nem credenciais.
 export const author = {

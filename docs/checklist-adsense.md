@@ -10,7 +10,7 @@
 
 | Item | Status | Observação |
 |---|---|---|
-| Menu com pelo menos 5 categorias e todas as páginas obrigatórias | 🟡 | Páginas obrigatórias prontas. Faltam as categorias (aparecem no menu com o primeiro artigo de cada uma). |
+| Menu com pelo menos 5 categorias e todas as páginas obrigatórias | 🟡 | Páginas obrigatórias prontas. 1 de 5 categorias (`ahorro`). |
 | Página "Sobre" | ✅ | /sobre-nosotros/ |
 | Política de Privacidade (obrigatória) | ✅ | /politica-de-privacidad/ (RGPD) + /politica-de-cookies/ |
 | Página "Contato" | 🟡 | Existe (/contacto/), falta o **e-mail**. Fica fora do Google até ter e-mail. |
@@ -25,10 +25,10 @@
 
 | Item | Status | Observação |
 |---|---|---|
-| Pelo menos 50 artigos publicados | ⬜ | 0 de 50. Aguardando a pauta. |
-| Cada categoria com no mínimo 6 artigos | ⬜ | — |
+| Pelo menos 50 artigos publicados | 🟡 | 1 de 50 (factura de la luz, em `ahorro`). |
+| Cada categoria com no mínimo 6 artigos | 🟡 | `ahorro`: 1 de 6. |
 | Assinatura do autor | ✅ | "Equipo editorial de Hogar Práctico" com selo próprio e página /equipo-editorial/. |
-| Imagens nos artigos | ⬜ | Criar o secret `UNSPLASH_ACCESS_KEY` neste repositório. |
+| Imagens nos artigos | 🟡 | 1º artigo com ilustração própria (`src/assets/articulos/`). Para fotos, criar o secret `UNSPLASH_ACCESS_KEY`. |
 
 ## Técnico e presença digital
 
