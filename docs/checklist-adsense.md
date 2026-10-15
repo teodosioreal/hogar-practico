@@ -25,10 +25,10 @@
 
 | Item | Status | Observação |
 |---|---|---|
-| Pelo menos 50 artigos publicados | 🟡 | 1 de 50 (factura de la luz, em `ahorro`). |
-| Cada categoria com no mínimo 6 artigos | 🟡 | `ahorro`: 1 de 6. |
+| Pelo menos 50 artigos publicados | 🟡 | 2 de 50 (ambos em `ahorro`, sobre a factura de la luz). |
+| Cada categoria com no mínimo 6 artigos | 🟡 | `ahorro`: 2 de 6. |
 | Assinatura do autor | ✅ | "Equipo editorial de Hogar Práctico" com selo próprio e página /equipo-editorial/. |
-| Imagens nos artigos | 🟡 | 1º artigo com ilustração própria (`src/assets/articulos/`). Para fotos, criar o secret `UNSPLASH_ACCESS_KEY`. |
+| Imagens nos artigos | 🟡 | Artigos com ilustração própria (`src/assets/articulos/`). Para fotos, criar o secret `UNSPLASH_ACCESS_KEY`. |
 
 ## Técnico e presença digital
 

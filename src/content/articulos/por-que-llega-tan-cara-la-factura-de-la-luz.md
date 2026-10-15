@@ -40,7 +40,8 @@ sources:
     url: "https://www.esios.ree.es/es/pvpc"
   - title: "Gobierno de España: Bono social de electricidad"
     url: "https://www.bonosocial.gob.es/"
-related: []
+related: ["como-entender-la-factura-de-la-luz"]
+next: "como-entender-la-factura-de-la-luz"
 ---
 
 Abres la factura y el importe es bastante más alto que el del mes pasado. Antes de enfadarte o pensar en un error, **compara dos cifras: los kWh consumidos y los días que cubre la factura**. En la mayoría de los casos, la subida se explica por un mayor consumo, un periodo más largo, una regularización de lecturas estimadas o un cambio en el precio del kWh.
@@ -154,7 +155,7 @@ Si encuentras algo raro, toca reclamar. Te lo explicamos en la sección de abajo
 
 ## Revisa tu factura en 6 pasos
 
-Ten a mano la factura actual y, si puedes, la del mismo mes del año pasado. Esta tabla te ayuda a encontrar la causa en unos minutos:
+Ten a mano la factura actual y, si puedes, la del mismo mes del año pasado. Esta tabla te ayuda a encontrar la causa en unos minutos. Si te pierdes con algún concepto, nuestra guía para [entender la factura de la luz paso a paso](/ahorro/como-entender-la-factura-de-la-luz/) explica cada línea:
 
 | Paso | Qué mirar | Si ves esto… | Causa probable |
 |---|---|---|---|
@@ -190,4 +191,4 @@ Si hay humo, fuego o peligro inmediato, aléjate y llama al **112**.
 
 Coge tu última factura y anota tres datos: los kWh, los días facturados y si la lectura es real o estimada. Con eso ya sabrás si la subida se explica por tu consumo o si toca reclamar.
 
-Después, entra en el comparador de la CNMC con tu factura para ver si tu tarifa y tu potencia encajan con tu forma de consumir.
+Después, entra en el comparador de la CNMC con tu factura para ver si tu tarifa y tu potencia encajan con tu forma de consumir. Y si quieres saber qué significa cada línea de la factura, sigue con nuestra guía para [entender la factura de la luz](/ahorro/como-entender-la-factura-de-la-luz/).
