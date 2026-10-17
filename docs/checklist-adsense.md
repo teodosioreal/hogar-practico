@@ -4,7 +4,7 @@
 >
 > Legenda: ✅ pronto · 🟡 em andamento · ⬜ falta · ➖ não se aplica / opcional
 
-Última atualização: 15 de outubro de 2026
+Última atualização: 17 de outubro de 2026
 
 ## Estrutura do site
 
@@ -25,8 +25,8 @@
 
 | Item | Status | Observação |
 |---|---|---|
-| Pelo menos 50 artigos publicados | 🟡 | 2 de 50 (ambos em `ahorro`, sobre a factura de la luz). |
-| Cada categoria com no mínimo 6 artigos | 🟡 | `ahorro`: 2 de 6. |
+| Pelo menos 50 artigos publicados | 🟡 | 10 de 50 em `ahorro`: 4 publicados e 6 agendados (2 por dia até 20/10/2026). |
+| Cada categoria com no mínimo 6 artigos | 🟡 | `ahorro`: 10 ✅ (completa a partir de 19/10). Faltam as outras 4 categorias. |
 | Assinatura do autor | ✅ | "Equipo editorial de Hogar Práctico" com selo próprio e página /equipo-editorial/. |
 | Imagens nos artigos | 🟡 | Artigos com ilustração própria (`src/assets/articulos/`). Para fotos, criar o secret `UNSPLASH_ACCESS_KEY`. |
 

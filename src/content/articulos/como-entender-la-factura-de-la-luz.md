@@ -12,7 +12,7 @@ secondaryKeywords:
   - "factura de electricidad alta"
   - "cómo ahorrar en la factura de la luz"
 datePublished: 2026-10-15
-dateModified: 2026-10-15
+dateModified: 2026-10-17
 image: ../../assets/articulos/entender-factura-luz.webp
 imageAlt: "Ilustración de una factura de la luz con dos líneas destacadas, una marcada como kW y otra como kWh"
 keyTakeaways:
@@ -46,8 +46,8 @@ sources:
     url: "https://www.esios.ree.es/es/pvpc"
   - title: "Gobierno de España: Bono social de electricidad"
     url: "https://www.bonosocial.gob.es/"
-related: ["por-que-llega-tan-cara-la-factura-de-la-luz"]
-next: "por-que-llega-tan-cara-la-factura-de-la-luz"
+related: ["por-que-llega-tan-cara-la-factura-de-la-luz", "pvpc-o-mercado-libre", "que-potencia-de-luz-necesito"]
+next: "pvpc-o-mercado-libre"
 ---
 
 Potencia contratada, término de energía, peajes, alquiler del contador... Si al leer tu factura de la luz no sabes qué estás pagando, no eres la única persona. La buena noticia es que no hace falta saber de electricidad para entenderla.
@@ -158,7 +158,7 @@ En España hay dos grandes tipos de contrato:
 - **Mercado libre:** el precio es el que hayas pactado con tu comercializadora. Revisa el precio de la energía y de la potencia, la duración y renovación del contrato, los servicios adicionales y si hay permanencia. Mira también qué precio se aplicará cuando acabe cualquier promoción.
 - **PVPC (precio voluntario para el pequeño consumidor):** es la tarifa regulada, para quien cumple los requisitos. El precio de la energía cambia cada hora según el mercado, así que el coste puede variar de un periodo a otro aunque consumas lo mismo. Puedes consultar los precios en la web de Red Eléctrica.
 
-Para comparar, usa el comparador de ofertas de la CNMC con tu consumo y tu potencia reales. Antes de cambiar, revisa si hay servicios adicionales, permanencia o costes asociados. La tarifa más barata en el anuncio no siempre es la más barata para tu casa.
+Para comparar, usa el comparador de ofertas de la CNMC con tu consumo y tu potencia reales. Antes de cambiar, revisa si hay servicios adicionales, permanencia o costes asociados. La tarifa más barata en el anuncio no siempre es la más barata para tu casa. Si dudas entre las dos opciones, lee [PVPC o mercado libre](/ahorro/pvpc-o-mercado-libre/) y, cuando lo tengas claro, sigue los pasos para [cambiar de compañía de luz](/ahorro/como-cambiar-de-compania-de-luz/).
 
 ## Señales de que tu factura puede tener un error
 
@@ -181,7 +181,7 @@ Cuando ya entiendes la factura, es más fácil ver dónde puedes recortar.
 1. **Climatiza solo lo que usas.** No calientes ni enfríes habitaciones vacías, y revisa que puertas y ventanas cierren bien.
 2. **Revisa el termo eléctrico.** Comprueba su programación y la temperatura según las recomendaciones del fabricante.
 3. **Calcula lo que gasta cada aparato.** Mira su potencia en vatios, multiplica por las horas de uso y divide entre 1.000: tendrás los kWh. Multiplícalos por el precio de tu tarifa para saber el coste.
-4. **Ajusta la potencia.** Piensa cuántos aparatos usas a la vez y, si tienes dudas, pide orientación a tu comercializadora antes de cambiarla.
+4. **Ajusta la potencia.** Piensa cuántos aparatos usas a la vez y, si tienes dudas, pide orientación a tu comercializadora antes de cambiarla. Te explicamos cómo calcularla en [qué potencia de luz necesito](/ahorro/que-potencia-de-luz-necesito/).
 5. **Compara tu contrato cada cierto tiempo.** Ten en cuenta el coste total estimado, no solo el precio anunciado.
 
 ## ¿Puedes pagar menos con el bono social?

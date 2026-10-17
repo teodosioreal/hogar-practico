@@ -12,7 +12,7 @@ secondaryKeywords:
   - "lectura estimada factura luz"
   - "reclamar factura de la luz"
 datePublished: 2026-10-15
-dateModified: 2026-10-15
+dateModified: 2026-10-17
 image: ../../assets/articulos/factura-luz-cara.webp
 imageAlt: "Ilustración de una factura de la luz con una barra de consumo más alta que las demás y una lupa encima"
 keyTakeaways:
@@ -40,7 +40,7 @@ sources:
     url: "https://www.esios.ree.es/es/pvpc"
   - title: "Gobierno de España: Bono social de electricidad"
     url: "https://www.bonosocial.gob.es/"
-related: ["como-entender-la-factura-de-la-luz"]
+related: ["como-entender-la-factura-de-la-luz", "consumo-fantasma-stand-by", "horas-valle-punta-y-llano"]
 next: "como-entender-la-factura-de-la-luz"
 ---
 
@@ -97,7 +97,7 @@ Si la estimación no se parece a la realidad, pide a tu comercializadora que la 
 
 El importe no depende solo de lo que consumes, también del precio de cada kWh. Aquí hay dos situaciones distintas:
 
-- **Si tienes la tarifa regulada (PVPC):** el precio de la energía cambia cada hora según el mercado mayorista. Dos meses con el mismo consumo pueden costar distinto. Puedes consultar los precios en la web de Red Eléctrica.
+- **Si tienes la tarifa regulada (PVPC):** el precio de la energía cambia cada hora y depende de los mercados mayoristas. Dos meses con el mismo consumo pueden costar distinto. Puedes consultar los precios en la web de Red Eléctrica. Te explicamos las diferencias en [PVPC o mercado libre](/ahorro/pvpc-o-mercado-libre/).
 - **Si estás en el mercado libre:** el precio es el de tu contrato, pero puede haber terminado una promoción o haberse actualizado la tarifa. Revisa tu contrato y las comunicaciones de tu comercializadora.
 
 En la propia factura aparece el tipo de contrato que tienes. Si no lo ves claro, la herramienta «Entiende tu factura» de la CNMC te ayuda a leerlo.
@@ -112,7 +112,7 @@ Si ahora pones la lavadora, el horno o la secadora a media mañana o a media tar
 
 La factura tiene una parte fija, el **término de potencia**, que pagas por la potencia contratada, consumas o no. Si la subiste hace poco, por ejemplo para usar una placa de inducción y el horno a la vez, esa parte fija también habrá subido.
 
-Al revés también pasa: muchos hogares tienen contratada más potencia de la que usan. El comparador de la CNMC muestra la potencia que has llegado a usar y te ayuda a valorar si podrías bajarla. Antes de cambiarla, pregunta a tu comercializadora qué condiciones tiene el cambio.
+Al revés también pasa: muchos hogares tienen contratada más potencia de la que usan. El comparador de la CNMC muestra la potencia que has llegado a usar y te ayuda a valorar si podrías bajarla. Antes de cambiarla, pregunta a tu comercializadora qué condiciones tiene el cambio, y lee nuestra guía sobre [qué potencia de luz necesitas](/ahorro/que-potencia-de-luz-necesito/).
 
 ## 8. Has perdido un descuento o el bono social
 
