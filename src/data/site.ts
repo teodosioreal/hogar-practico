@@ -51,6 +51,14 @@ export const categories: Record<string, Category> = {
     description:
       'Cómo limpiar cada rincón de casa con métodos que funcionan, sin gastar de más y sin poner en riesgo tu salud: qué usar, qué evitar y cuándo llamar a un profesional.',
   },
+  orden: {
+    name: 'Orden',
+    title: 'Orden en casa: cómo organizar cada espacio | Hogar Práctico',
+    metaDescription:
+      'Guías para ordenar y organizar la casa: armario, cocina, nevera, despensa, baño, papeles y trastero, con métodos sencillos que se mantienen.',
+    description:
+      'Métodos sencillos para ordenar cada rincón de casa y que el orden dure: qué guardar, dónde ponerlo y de qué desprenderte, sin comprar media tienda de organizadores.',
+  },
 };
 
 // Assinatura dos artigos. É a equipe (sem nome pessoal, por decisão do dono). Não inventar pessoas nem credenciais.

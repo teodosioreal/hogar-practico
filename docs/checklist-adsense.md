@@ -10,7 +10,7 @@
 
 | Item | Status | Observação |
 |---|---|---|
-| Menu com pelo menos 5 categorias e todas as páginas obrigatórias | 🟡 | Páginas obrigatórias prontas. 2 de 5 categorias (`ahorro`; `limpieza` aparece no menu em 21/10). |
+| Menu com pelo menos 5 categorias e todas as páginas obrigatórias | 🟡 | Páginas obrigatórias prontas. 3 de 5 categorias (`ahorro`; `limpieza` a partir de 21/10; `orden` a partir de 26/10). |
 | Página "Sobre" | ✅ | /sobre-nosotros/ |
 | Política de Privacidade (obrigatória) | ✅ | /politica-de-privacidad/ (RGPD) + /politica-de-cookies/ |
 | Página "Contato" | 🟡 | Existe (/contacto/), falta o **e-mail**. Fica fora do Google até ter e-mail. |
@@ -25,8 +25,8 @@
 
 | Item | Status | Observação |
 |---|---|---|
-| Pelo menos 50 artigos publicados | 🟡 | 20 de 50: 10 em `ahorro` (até 20/10) + 10 em `limpieza` (21 a 25/10), 2 por dia. |
-| Cada categoria com no mínimo 6 artigos | 🟡 | `ahorro`: 10 ✅ · `limpieza`: 10 ✅ (completa a partir de 23/10). Faltam 3 categorias. |
+| Pelo menos 50 artigos publicados | 🟡 | 30 de 50: 10 em `ahorro` (até 20/10) + 10 em `limpieza` (21 a 25/10) + 10 em `orden` (26 a 30/10), 2 por dia. |
+| Cada categoria com no mínimo 6 artigos | 🟡 | `ahorro`: 10 ✅ · `limpieza`: 10 ✅ (a partir de 23/10) · `orden`: 10 ✅ (a partir de 28/10). Faltam 2 categorias. |
 | Assinatura do autor | ✅ | "Equipo editorial de Hogar Práctico" com selo próprio e página /equipo-editorial/. |
 | Imagens nos artigos | 🟡 | Artigos com ilustração própria (`src/assets/articulos/`). Para fotos, criar o secret `UNSPLASH_ACCESS_KEY`. |
 
