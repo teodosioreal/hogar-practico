@@ -43,6 +43,14 @@ export const categories: Record<string, Category> = {
     description:
       'Facturas de luz, agua y gas explicadas sin jerga: qué mirar, por qué suben y qué puedes hacer para pagar solo lo que consumes.',
   },
+  limpieza: {
+    name: 'Limpieza',
+    title: 'Trucos de limpieza para casa, paso a paso | Hogar Práctico',
+    metaDescription:
+      'Guías de limpieza para casa: moho, cal, horno, baño, lavadora y cocina, con métodos seguros y qué productos no debes mezclar nunca.',
+    description:
+      'Cómo limpiar cada rincón de casa con métodos que funcionan, sin gastar de más y sin poner en riesgo tu salud: qué usar, qué evitar y cuándo llamar a un profesional.',
+  },
 };
 
 // Assinatura dos artigos. É a equipe (sem nome pessoal, por decisão do dono). Não inventar pessoas nem credenciais.
